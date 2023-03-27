@@ -45,7 +45,6 @@ header {
 }
 
 .main-div {
-  display: flex-wrap;
   justify-content: center;
   align-items: center;
 }
@@ -198,16 +197,12 @@ select {
   transition: all 0.3s ease;
 }
 
-.select::hover::after {
+.select:hover::after {
   background: white;
   color: var(--colour-blush);
 }
 
 @media screen and (max-width: 700px) {
-  .main-div{
-    display: flex-wrap;
-  }
-
   .trash-btn{
   border-top-right-radius: 1.75rem;
   border-bottom-right-radius: 1.75rem;
@@ -217,8 +212,6 @@ select {
   border-top-left-radius: 1.75rem;
   border-bottom-left-radius: 1.75rem;
 }
-
-
 }
 
 /*
